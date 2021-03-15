@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordKeeper.CLI", "RecordKeeper.CLI\RecordKeeper.CLI.csproj", "{71E7CA2D-C9F6-4AB4-80F2-E329A779B7EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordKeeper.CLI", "RecordKeeper.CLI\RecordKeeper.CLI.csproj", "{71E7CA2D-C9F6-4AB4-80F2-E329A779B7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordKeeper.Entities", "RecordKeeper.Entities\RecordKeeper.Entities.csproj", "{A1F6AAD9-6993-4E1A-925A-DD13C0E42286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordKeeper.Tests", "RecordKeeper.Tests\RecordKeeper.Tests.csproj", "{6AAB7F22-7B88-47D1-A49E-C32462BB6661}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{71E7CA2D-C9F6-4AB4-80F2-E329A779B7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71E7CA2D-C9F6-4AB4-80F2-E329A779B7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71E7CA2D-C9F6-4AB4-80F2-E329A779B7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F6AAD9-6993-4E1A-925A-DD13C0E42286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F6AAD9-6993-4E1A-925A-DD13C0E42286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F6AAD9-6993-4E1A-925A-DD13C0E42286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F6AAD9-6993-4E1A-925A-DD13C0E42286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAB7F22-7B88-47D1-A49E-C32462BB6661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAB7F22-7B88-47D1-A49E-C32462BB6661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAB7F22-7B88-47D1-A49E-C32462BB6661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAB7F22-7B88-47D1-A49E-C32462BB6661}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
