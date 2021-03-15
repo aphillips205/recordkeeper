@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RecordKeeper.API\RecordKeeper.API.csproj" />
     <ProjectReference Include="..\RecordKeeper.CLI\RecordKeeper.CLI.csproj" />
     <ProjectReference Include="..\RecordKeeper.Entities\RecordKeeper.Entities.csproj" />
   </ItemGroup>

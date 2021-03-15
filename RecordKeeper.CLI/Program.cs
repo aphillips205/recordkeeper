@@ -16,8 +16,15 @@ namespace RecordKeeper.CLI
             {
                 string input = Console.ReadLine();
                 RecordProcessor recordProcessor = new RecordProcessor();
-                string output = recordProcessor.Process(input);
-                Console.WriteLine(output);
+                List<Record> records = recordProcessor.Process(input);
+
+                StringBuilder builder = new StringBuilder();
+                foreach (Record record in records)
+                {
+                    builder.AppendLine($"{record.LastName}, {record.FirstName}, {record.Email}, {record.FavoriteColor}, {record.DateOfBirth.ToShortDateString()}");
+                }
+
+                Console.WriteLine(builder.ToString());
             }
             catch(Exception ex)
             {

@@ -10,7 +10,7 @@ namespace RecordKeeper.Entities
     {
         const string BothInputsRequired = "Both file path(s) and sort order(s) are required.";
 
-        public string Process(string input)
+        public List<Record> Process(string input)
         {
             if(string.IsNullOrWhiteSpace(input))
             {
@@ -52,13 +52,7 @@ namespace RecordKeeper.Entities
             List<Record> orderedRecords = records.SortBy(firstSortPattern)
                                                  .ThenSortBy(remainingSortPatterns).ToList();
 
-            StringBuilder builder = new StringBuilder();
-            foreach(Record record in orderedRecords)
-            {
-                builder.AppendLine($"{record.LastName}, {record.FirstName}, {record.Email}, {record.FavoriteColor}, {record.DateOfBirth.ToShortDateString()}");
-            }
-
-             return builder.ToString();
+            return orderedRecords;
         }
     }
 }

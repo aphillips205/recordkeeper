@@ -10,3 +10,5 @@
 /RecordKeeper.Entities/obj
 /RecordKeeper.Tests/bin/Debug/netcoreapp3.1
 /RecordKeeper.Tests/obj
+/RecordKeeper.API/bin/Debug/netcoreapp3.1
+/RecordKeeper.API/obj
