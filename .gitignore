@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/RecordKeeper.CLI/bin/Debug/netcoreapp3.1
+/RecordKeeper.CLI/obj
+*.user
+/RecordKeeper.Entities/bin/Debug/netcoreapp3.1
+/RecordKeeper.Entities/obj
+/RecordKeeper.Tests/bin/Debug/netcoreapp3.1
+/RecordKeeper.Tests/obj
